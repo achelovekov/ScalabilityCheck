@@ -1,0 +1,2458 @@
+
+  {
+    "versions": [
+      "9.2(3)",
+      "9.2(4)",
+      "9.3(1)",
+      "9.3(4)",
+      "9.3(7)",
+      "9.3(7a)"
+    ],
+    "definition": [
+      {
+        "featureset": "none",
+        "metrics": [
+          {
+            "metric": "svi",
+            "hardware": [
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-EX",
+                "value": "1500"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-FX",
+                "value": "1500"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9636C-R",
+                "value": "3967"
+              },
+              {
+                "platform": "N9K-C93180YC-FX",
+                "linecard": "N9K-C93180YC-FX",
+                "value": "1000"
+              },
+              {
+                "platform": "N9K-C9336C-FX2",
+                "linecard": "N9K-C9336C-FX2",
+                "value": "1000"
+              },
+              {
+                "platform": "N9K-C9364C",
+                "linecard": "N9K-C9364C",
+                "value": "490"
+              },
+              {
+                "platform": "N9K-C9364C-GX",
+                "linecard": "N9K-C9364C-GX",
+                "value": "490"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9732C-FX",
+                "value": "490"
+              }
+            ]
+          },
+          {
+            "metric": "mac",
+            "hardware": [
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-EX",
+                "value": "92000"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-FX",
+                "value": "92000"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "X9636Q-R",
+                "value": "192000"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9636C-R",
+                "value": "192000"
+              },
+              {
+                "platform": "N9K-C93180YC-FX",
+                "linecard": "N9K-C93180YC-FX",
+                "value": "92000"
+              },
+              {
+                "platform": "N9K-C9336C-FX2",
+                "linecard": "N9K-C9336C-FX2",
+                "value": "92000"
+              },
+              {
+                "platform": "N9K-C9364C",
+                "linecard": "N9K-C9364C",
+                "value": "90000"
+              },
+              {
+                "platform": "N9K-C9364C-GX",
+                "linecard": "N9K-C9364C-GX",
+                "value": "90000"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9732C-FX",
+                "value": "90000"
+              }
+            ]
+          },
+          {
+            "metric": "vlan",
+            "hardware": [
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-EX",
+                "value": "3967"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-FX",
+                "value": "3967"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "X9636Q-R",
+                "value": "3967"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9636C-R",
+                "value": "3967"
+              },
+              {
+                "platform": "N9K-C93180YC-FX",
+                "linecard": "N9K-C93180YC-FX",
+                "value": "3967"
+              },
+              {
+                "platform": "N9K-C9336C-FX2",
+                "linecard": "N9K-C9336C-FX2",
+                "value": "3967"
+              },
+              {
+                "platform": "N9K-C9364C",
+                "linecard": "N9K-C9364C",
+                "value": "3967"
+              },
+              {
+                "platform": "N9K-C9364C-GX",
+                "linecard": "N9K-C9364C-GX",
+                "value": "3967"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9732C-FX",
+                "value": "3967"
+              }
+            ]
+          },
+          {
+            "metric": "mcast",
+            "hardware": [
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-EX",
+                "value": "8192"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-FX",
+                "value": "8192"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "X9636Q-R",
+                "value": "32768"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9636C-R",
+                "value": "32768"
+              },
+              {
+                "platform": "N9K-C93180YC-FX",
+                "linecard": "N9K-C93180YC-FX",
+                "value": "8192"
+              },
+              {
+                "platform": "N9K-9332C",
+                "linecard": "N9K-9332C",
+                "value": "16384"
+              },
+              {
+                "platform": "N9K-C9336C-FX2",
+                "linecard": "N9K-C9336C-FX2",
+                "value": "8192"
+              },
+              {
+                "platform": "N9K-C9364C",
+                "linecard": "N9K-C9364C",
+                "value": "16384"
+              },
+              {
+                "platform": "N9K-C9364C-GX",
+                "linecard": "N9K-C9364C-GX",
+                "value": "16384"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9732C-FX",
+                "value": "16384"
+              }
+            ]
+          },
+          {
+            "metric": "v4_hosts",
+            "hardware": [
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-EX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "X9636Q-R",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9636C-R",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C93180YC-FX",
+                "linecard": "N9K-C93180YC-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-9332C",
+                "linecard": "N9K-9332C",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-C9504-FM-E",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9336C-FX2",
+                "linecard": "N9K-C9336C-FX2",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9364C",
+                "linecard": "N9K-C9364C",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9364C-GX",
+                "linecard": "N9K-C9364C-GX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9732C-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-C9508-FM-E2",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-C9508-FM-R",
+                "value": "100"
+              }
+            ]
+          },
+          {
+            "metric": "v6_hosts",
+            "hardware": [
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-EX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "X9636Q-R",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9636C-R",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C93180YC-FX",
+                "linecard": "N9K-C93180YC-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-9332C",
+                "linecard": "N9K-9332C",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-C9504-FM-E",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9336C-FX2",
+                "linecard": "N9K-C9336C-FX2",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9364C",
+                "linecard": "N9K-C9364C",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9364C-GX",
+                "linecard": "N9K-C9364C-GX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9732C-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-C9508-FM-E2",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-C9508-FM-R",
+                "value": "100"
+              }
+            ]
+          },
+          {
+            "metric": "v6_nd_local",
+            "hardware": [
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-EX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "X9636Q-R",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9636C-R",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C93180YC-FX",
+                "linecard": "N9K-C93180YC-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-9332C",
+                "linecard": "N9K-9332C",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-C9504-FM-E",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9336C-FX2",
+                "linecard": "N9K-C9336C-FX2",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9364C",
+                "linecard": "N9K-C9364C",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9364C-GX",
+                "linecard": "N9K-C9364C-GX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9732C-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9732C-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-C9508-FM-E2",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-C9508-FM-R",
+                "value": "100"
+              }
+            ]
+          },
+          {
+            "metric": "v4_trie",
+            "hardware": [
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-EX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "X9636Q-R",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9636C-R",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C93180YC-FX",
+                "linecard": "N9K-C93180YC-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-9332C",
+                "linecard": "N9K-9332C",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-C9504-FM-E",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9336C-FX2",
+                "linecard": "N9K-C9336C-FX2",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9364C",
+                "linecard": "N9K-C9364C",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9364C-GX",
+                "linecard": "N9K-C9364C-GX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9732C-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-C9508-FM-E2",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-C9508-FM-R",
+                "value": "100"
+              }
+            ]
+          },
+          {
+            "metric": "v6_trie",
+            "hardware": [
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-EX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "X9636Q-R",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9636C-R",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C93180YC-FX",
+                "linecard": "N9K-C93180YC-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-9332C",
+                "linecard": "N9K-9332C",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-C9504-FM-E",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9336C-FX2",
+                "linecard": "N9K-C9336C-FX2",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9364C",
+                "linecard": "N9K-C9364C",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9364C-GX",
+                "linecard": "N9K-C9364C-GX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9732C-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-C9508-FM-E2",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-C9508-FM-R",
+                "value": "100"
+              }
+            ]
+          },
+          {
+            "metric": "v4_tcam",
+            "hardware": [
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-EX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "X9636Q-R",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9636C-R",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C93180YC-FX",
+                "linecard": "N9K-C93180YC-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-9332C",
+                "linecard": "N9K-9332C",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-C9504-FM-E",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9336C-FX2",
+                "linecard": "N9K-C9336C-FX2",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9364C",
+                "linecard": "N9K-C9364C",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9364C-GX",
+                "linecard": "N9K-C9364C-GX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9732C-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-C9508-FM-E2",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-C9508-FM-R",
+                "value": "100"
+              }
+            ]
+          },
+          {
+            "metric": "v6_tcam",
+            "hardware": [
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-EX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "X9636Q-R",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9636C-R",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C93180YC-FX",
+                "linecard": "N9K-C93180YC-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-9332C",
+                "linecard": "N9K-9332C",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-C9504-FM-E",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9336C-FX2",
+                "linecard": "N9K-C9336C-FX2",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9364C",
+                "linecard": "N9K-C9364C",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9364C-GX",
+                "linecard": "N9K-C9364C-GX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9732C-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-C9508-FM-E2",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-C9508-FM-R",
+                "value": "100"
+              }
+            ]
+          },
+          {
+            "metric": "v4_lpm_routes",
+            "hardware": [
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-EX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "X9636Q-R",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9636C-R",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C93180YC-FX",
+                "linecard": "N9K-C93180YC-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-9332C",
+                "linecard": "N9K-9332C",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-C9504-FM-E",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9336C-FX2",
+                "linecard": "N9K-C9336C-FX2",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9364C",
+                "linecard": "N9K-C9364C",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9364C-GX",
+                "linecard": "N9K-C9364C-GX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9732C-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-C9508-FM-R",
+                "value": "100"
+              }
+            ]
+          },
+          {
+            "metric": "v6_lpm_routes",
+            "hardware": [
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-EX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "X9636Q-R",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9636C-R",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C93180YC-FX",
+                "linecard": "N9K-C93180YC-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-9332C",
+                "linecard": "N9K-9332C",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-C9504-FM-E",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9336C-FX2",
+                "linecard": "N9K-C9336C-FX2",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9364C",
+                "linecard": "N9K-C9364C",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9364C-GX",
+                "linecard": "N9K-C9364C-GX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9732C-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-C9508-FM-R",
+                "value": "100"
+              }
+            ]
+          },
+          {
+            "metric": "next_hop",
+            "hardware": [
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-EX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "X9636Q-R",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9636C-R",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C93180YC-FX",
+                "linecard": "N9K-C93180YC-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-9332C",
+                "linecard": "N9K-9332C",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-C9504-FM-E",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9336C-FX2",
+                "linecard": "N9K-C9336C-FX2",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9364C",
+                "linecard": "N9K-C9364C",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9364C-GX",
+                "linecard": "N9K-C9364C-GX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9732C-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-C9508-FM-E2",
+                "value": "100"
+              }
+            ]
+          },
+          {
+            "metric": "bfd_linecard",
+            "hardware": [
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-EX",
+                "value": "75"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-FX",
+                "value": "75"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "X9636Q-R",
+                "value": "75"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9636C-R",
+                "value": "75"
+              },
+              {
+                "platform": "N9K-C93180YC-FX",
+                "linecard": "N9K-C93180YC-FX",
+                "value": "128"
+              },
+              {
+                "platform": "N9K-9332C",
+                "linecard": "N9K-9332C",
+                "value": "128"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-C9504-FM-E",
+                "value": "75"
+              },
+              {
+                "platform": "N9K-C9336C-FX2",
+                "linecard": "N9K-C9336C-FX2",
+                "value": "128"
+              },
+              {
+                "platform": "N9K-C9364C",
+                "linecard": "N9K-C9364C",
+                "value": "128"
+              },
+              {
+                "platform": "N9K-C9364C-GX",
+                "linecard": "N9K-C9364C-GX",
+                "value": "128"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9732C-FX",
+                "value": "75"
+              }
+            ]
+          },
+          {
+            "metric": "bfd_global",
+            "hardware": [
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-EX",
+                "value": "512"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-FX",
+                "value": "512"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "X9636Q-R",
+                "value": "288"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9636C-R",
+                "value": "288"
+              },
+              {
+                "platform": "N9K-C93180YC-FX",
+                "linecard": "N9K-C93180YC-FX",
+                "value": "128"
+              },
+              {
+                "platform": "N9K-9332C",
+                "linecard": "N9K-9332C",
+                "value": "128"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-C9504-FM-E",
+                "value": "512"
+              },
+              {
+                "platform": "N9K-C9336C-FX2",
+                "linecard": "N9K-C9336C-FX2",
+                "value": "128"
+              },
+              {
+                "platform": "N9K-C9364C",
+                "linecard": "N9K-C9364C",
+                "value": "128"
+              },
+              {
+                "platform": "N9K-C9364C-GX",
+                "linecard": "N9K-C9364C-GX",
+                "value": "128"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9732C-FX",
+                "value": "128"
+              }
+            ]
+          },
+          {
+            "metric": "arp",
+            "hardware": [
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-EX",
+                "value": "48000"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-FX",
+                "value": "48000"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "X9636Q-R",
+                "value": "48000"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9636C-R",
+                "value": "48000"
+              },
+              {
+                "platform": "N9K-C93180YC-FX",
+                "linecard": "N9K-C93180YC-FX",
+                "value": "48000"
+              },
+              {
+                "platform": "N9K-9332C",
+                "linecard": "N9K-9332C",
+                "value": "48000"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-C9504-FM-E",
+                "value": "48000"
+              },
+              {
+                "platform": "N9K-C9336C-FX2",
+                "linecard": "N9K-C9336C-FX2",
+                "value": "48000"
+              },
+              {
+                "platform": "N9K-C9364C",
+                "linecard": "N9K-C9364C",
+                "value": "32000"
+              },
+              {
+                "platform": "N9K-C9364C-GX",
+                "linecard": "N9K-C9364C-GX",
+                "value": "32000"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9732C-FX",
+                "value": "32000"
+              }
+            ]
+          },
+          {
+            "metric": "ecmp",
+            "hardware": [
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-EX",
+                "value": "1024"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-FX",
+                "value": "1024"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "X9636Q-R",
+                "value": "1024"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9636C-R",
+                "value": "1024"
+              },
+              {
+                "platform": "N9K-C93180YC-FX",
+                "linecard": "N9K-C93180YC-FX",
+                "value": "1024"
+              },
+              {
+                "platform": "N9K-9332C",
+                "linecard": "N9K-9332C",
+                "value": "1024"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-C9504-FM-E",
+                "value": "1024"
+              },
+              {
+                "platform": "N9K-C9336C-FX2",
+                "linecard": "N9K-C9336C-FX2",
+                "value": "1024"
+              },
+              {
+                "platform": "N9K-C9364C",
+                "linecard": "N9K-C9364C",
+                "value": "1024"
+              },
+              {
+                "platform": "N9K-C9364C-GX",
+                "linecard": "N9K-C9364C-GX",
+                "value": "1024"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9732C-FX",
+                "value": "1024"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-C9508-FM-E2",
+                "value": "1024"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "featureset": "BGP-EVPN",
+        "metrics": [
+          {
+            "metric": "svi",
+            "hardware": [
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-EX",
+                "value": "1000"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-FX",
+                "value": "1000"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9636C-R",
+                "value": "1000"
+              },
+              {
+                "platform": "N9K-C93180YC-FX",
+                "linecard": "N9K-C93180YC-FX",
+                "value": "2000"
+              },
+              {
+                "platform": "N9K-C9336C-FX2",
+                "linecard": "N9K-C9336C-FX2",
+                "value": "2000"
+              },
+              {
+                "platform": "N9K-C9364C",
+                "linecard": "N9K-C9364C",
+                "value": "2000"
+              },
+              {
+                "platform": "N9K-C9364C-GX",
+                "linecard": "N9K-C9364C-GX",
+                "value": "2000"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9732C-FX",
+                "value": "2000"
+              }
+            ]
+          },
+          {
+            "metric": "mac",
+            "hardware": [
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-EX",
+                "value": "90000"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-FX",
+                "value": "90000"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "X9636Q-R",
+                "value": "64000"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9636C-R",
+                "value": "64000"
+              },
+              {
+                "platform": "N9K-C93180YC-FX",
+                "linecard": "N9K-C93180YC-FX",
+                "value": "90000"
+              },
+              {
+                "platform": "N9K-C9336C-FX2",
+                "linecard": "N9K-C9336C-FX2",
+                "value": "90000"
+              },
+              {
+                "platform": "N9K-C9364C",
+                "linecard": "N9K-C9364C",
+                "value": "64000"
+              },
+              {
+                "platform": "N9K-C9364C-GX",
+                "linecard": "N9K-C9364C-GX",
+                "value": "64000"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9732C-FX",
+                "value": "64000"
+              }
+            ]
+          },
+          {
+            "metric": "vlan",
+            "hardware": [
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-EX",
+                "value": "3967"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-FX",
+                "value": "3967"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "X9636Q-R",
+                "value": "3967"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9636C-R",
+                "value": "3967"
+              },
+              {
+                "platform": "N9K-C93180YC-FX",
+                "linecard": "N9K-C93180YC-FX",
+                "value": "3967"
+              },
+              {
+                "platform": "N9K-C9336C-FX2",
+                "linecard": "N9K-C9336C-FX2",
+                "value": "3967"
+              },
+              {
+                "platform": "N9K-C9364C",
+                "linecard": "N9K-C9364C",
+                "value": "3967"
+              },
+              {
+                "platform": "N9K-C9364C-GX",
+                "linecard": "N9K-C9364C-GX",
+                "value": "3967"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9732C-FX",
+                "value": "3967"
+              }
+            ]
+          },
+          {
+            "metric": "vtep",
+            "hardware": [
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-EX",
+                "value": "512"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-FX",
+                "value": "512"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "X9636Q-R",
+                "value": "512"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9636C-R",
+                "value": "512"
+              },
+              {
+                "platform": "N9K-C93180YC-FX",
+                "linecard": "N9K-C93180YC-FX",
+                "value": "512"
+              },
+              {
+                "platform": "N9K-C9336C-FX2",
+                "linecard": "N9K-C9336C-FX2",
+                "value": "512"
+              },
+              {
+                "platform": "N9K-C9364C",
+                "linecard": "N9K-C9364C",
+                "value": "512"
+              },
+              {
+                "platform": "N9K-C9364C-GX",
+                "linecard": "N9K-C9364C-GX",
+                "value": "512"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9732C-FX",
+                "value": "512"
+              }
+            ]
+          },
+          {
+            "metric": "mcast",
+            "hardware": [
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-EX",
+                "value": "8192"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-FX",
+                "value": "8192"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "X9636Q-R",
+                "value": "32768"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9636C-R",
+                "value": "32768"
+              },
+              {
+                "platform": "N9K-C93180YC-FX",
+                "linecard": "N9K-C93180YC-FX",
+                "value": "8192"
+              },
+              {
+                "platform": "N9K-9332C",
+                "linecard": "N9K-9332C",
+                "value": "16384"
+              },
+              {
+                "platform": "N9K-C9336C-FX2",
+                "linecard": "N9K-C9336C-FX2",
+                "value": "8192"
+              },
+              {
+                "platform": "N9K-C9364C",
+                "linecard": "N9K-C9364C",
+                "value": "16384"
+              },
+              {
+                "platform": "N9K-C9364C-GX",
+                "linecard": "N9K-C9364C-GX",
+                "value": "16384"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9732C-FX",
+                "value": "16384"
+              }
+            ]
+          },
+          {
+            "metric": "v4_hosts",
+            "hardware": [
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-EX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "X9636Q-R",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9636C-R",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C93180YC-FX",
+                "linecard": "N9K-C93180YC-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-9332C",
+                "linecard": "N9K-9332C",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-C9504-FM-E",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9336C-FX2",
+                "linecard": "N9K-C9336C-FX2",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9364C",
+                "linecard": "N9K-C9364C",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9364C-GX",
+                "linecard": "N9K-C9364C-GX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9732C-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-C9508-FM-E2",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-C9508-FM-R",
+                "value": "100"
+              }
+            ]
+          },
+          {
+            "metric": "v6_hosts",
+            "hardware": [
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-EX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "X9636Q-R",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9636C-R",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C93180YC-FX",
+                "linecard": "N9K-C93180YC-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-9332C",
+                "linecard": "N9K-9332C",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-C9504-FM-E",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9336C-FX2",
+                "linecard": "N9K-C9336C-FX2",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9364C",
+                "linecard": "N9K-C9364C",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9364C-GX",
+                "linecard": "N9K-C9364C-GX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9732C-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-C9508-FM-E2",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-C9508-FM-R",
+                "value": "100"
+              }
+            ]
+          },
+          {
+            "metric": "v6_nd_local",
+            "hardware": [
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-EX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "X9636Q-R",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9636C-R",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C93180YC-FX",
+                "linecard": "N9K-C93180YC-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-9332C",
+                "linecard": "N9K-9332C",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-C9504-FM-E",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9336C-FX2",
+                "linecard": "N9K-C9336C-FX2",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9364C",
+                "linecard": "N9K-C9364C",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9364C-GX",
+                "linecard": "N9K-C9364C-GX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9732C-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-C9508-FM-E2",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-C9508-FM-R",
+                "value": "100"
+              }
+            ]
+          },
+          {
+            "metric": "v4_trie",
+            "hardware": [
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-EX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "X9636Q-R",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9636C-R",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C93180YC-FX",
+                "linecard": "N9K-C93180YC-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-9332C",
+                "linecard": "N9K-9332C",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-C9504-FM-E",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9336C-FX2",
+                "linecard": "N9K-C9336C-FX2",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9364C",
+                "linecard": "N9K-C9364C",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9364C-GX",
+                "linecard": "N9K-C9364C-GX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9732C-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-C9508-FM-E2",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-C9508-FM-R",
+                "value": "100"
+              }
+            ]
+          },
+          {
+            "metric": "v6_trie",
+            "hardware": [
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-EX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "X9636Q-R",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9636C-R",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C93180YC-FX",
+                "linecard": "N9K-C93180YC-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-9332C",
+                "linecard": "N9K-9332C",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-C9504-FM-E",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9336C-FX2",
+                "linecard": "N9K-C9336C-FX2",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9364C",
+                "linecard": "N9K-C9364C",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9364C-GX",
+                "linecard": "N9K-C9364C-GX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9732C-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-C9508-FM-E2",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-C9508-FM-R",
+                "value": "100"
+              }
+            ]
+          },
+          {
+            "metric": "v4_tcam",
+            "hardware": [
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-EX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "X9636Q-R",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9636C-R",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C93180YC-FX",
+                "linecard": "N9K-C93180YC-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-9332C",
+                "linecard": "N9K-9332C",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-C9504-FM-E",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9336C-FX2",
+                "linecard": "N9K-C9336C-FX2",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9364C",
+                "linecard": "N9K-C9364C",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9364C-GX",
+                "linecard": "N9K-C9364C-GX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9732C-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-C9508-FM-E2",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-C9508-FM-R",
+                "value": "100"
+              }
+            ]
+          },
+          {
+            "metric": "v6_tcam",
+            "hardware": [
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-EX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "X9636Q-R",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9636C-R",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C93180YC-FX",
+                "linecard": "N9K-C93180YC-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-9332C",
+                "linecard": "N9K-9332C",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-C9504-FM-E",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9336C-FX2",
+                "linecard": "N9K-C9336C-FX2",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9364C",
+                "linecard": "N9K-C9364C",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9364C-GX",
+                "linecard": "N9K-C9364C-GX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9732C-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-C9508-FM-E2",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-C9508-FM-R",
+                "value": "100"
+              }
+            ]
+          },
+          {
+            "metric": "v4_lpm_routes",
+            "hardware": [
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-EX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "X9636Q-R",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9636C-R",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C93180YC-FX",
+                "linecard": "N9K-C93180YC-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-9332C",
+                "linecard": "N9K-9332C",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-C9504-FM-E",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9336C-FX2",
+                "linecard": "N9K-C9336C-FX2",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9364C",
+                "linecard": "N9K-C9364C",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9364C-GX",
+                "linecard": "N9K-C9364C-GX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9732C-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-C9508-FM-R",
+                "value": "100"
+              }
+            ]
+          },
+          {
+            "metric": "v6_lpm_routes",
+            "hardware": [
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-EX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "X9636Q-R",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9636C-R",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C93180YC-FX",
+                "linecard": "N9K-C93180YC-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-9332C",
+                "linecard": "N9K-9332C",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-C9504-FM-E",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9336C-FX2",
+                "linecard": "N9K-C9336C-FX2",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9364C",
+                "linecard": "N9K-C9364C",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9364C-GX",
+                "linecard": "N9K-C9364C-GX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9732C-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-C9508-FM-R",
+                "value": "100"
+              }
+            ]
+          },
+          {
+            "metric": "next_hop",
+            "hardware": [
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-EX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "X9636Q-R",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9636C-R",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C93180YC-FX",
+                "linecard": "N9K-C93180YC-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-9332C",
+                "linecard": "N9K-9332C",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-C9504-FM-E",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9336C-FX2",
+                "linecard": "N9K-C9336C-FX2",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9364C",
+                "linecard": "N9K-C9364C",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9364C-GX",
+                "linecard": "N9K-C9364C-GX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9732C-FX",
+                "value": "100"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-C9508-FM-E2",
+                "value": "100"
+              }
+            ]
+          },
+          {
+            "metric": "l3vni",
+            "hardware": [
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-EX",
+                "value": "750"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-FX",
+                "value": "750"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "X9636Q-R",
+                "value": "900"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9636C-R",
+                "value": "900"
+              },
+              {
+                "platform": "N9K-C93180YC-FX",
+                "linecard": "N9K-C93180YC-FX",
+                "value": "900"
+              },
+              {
+                "platform": "N9K-9332C",
+                "linecard": "N9K-9332C",
+                "value": "900"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-C9504-FM-E",
+                "value": "750"
+              },
+              {
+                "platform": "N9K-C9336C-FX2",
+                "linecard": "N9K-C9336C-FX2",
+                "value": "900"
+              },
+              {
+                "platform": "N9K-C9364C",
+                "linecard": "N9K-C9364C",
+                "value": "900"
+              },
+              {
+                "platform": "N9K-C9364C-GX",
+                "linecard": "N9K-C9364C-GX",
+                "value": "900"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9732C-FX",
+                "value": "900"
+              }
+            ]
+          },
+          {
+            "metric": "l2vni",
+            "hardware": [
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-EX",
+                "value": "1000"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-FX",
+                "value": "1000"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "X9636Q-R",
+                "value": "2000"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9636C-R",
+                "value": "2000"
+              },
+              {
+                "platform": "N9K-C93180YC-FX",
+                "linecard": "N9K-C93180YC-FX",
+                "value": "2000"
+              },
+              {
+                "platform": "N9K-9332C",
+                "linecard": "N9K-9332C",
+                "value": "2000"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-C9504-FM-E",
+                "value": "1000"
+              },
+              {
+                "platform": "N9K-C9336C-FX2",
+                "linecard": "N9K-C9336C-FX2",
+                "value": "2000"
+              },
+              {
+                "platform": "N9K-C9364C",
+                "linecard": "N9K-C9364C",
+                "value": "2000"
+              },
+              {
+                "platform": "N9K-C9364C-GX",
+                "linecard": "N9K-C9364C-GX",
+                "value": "2000"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9732C-FX",
+                "value": "2000"
+              }
+            ]
+          },
+          {
+            "metric": "bfd_linecard",
+            "hardware": [
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-EX",
+                "value": "75"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-FX",
+                "value": "75"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "X9636Q-R",
+                "value": "75"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9636C-R",
+                "value": "75"
+              },
+              {
+                "platform": "N9K-C93180YC-FX",
+                "linecard": "N9K-C93180YC-FX",
+                "value": "128"
+              },
+              {
+                "platform": "N9K-9332C",
+                "linecard": "N9K-9332C",
+                "value": "128"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-C9504-FM-E",
+                "value": "75"
+              },
+              {
+                "platform": "N9K-C9336C-FX2",
+                "linecard": "N9K-C9336C-FX2",
+                "value": "128"
+              },
+              {
+                "platform": "N9K-C9364C",
+                "linecard": "N9K-C9364C",
+                "value": "128"
+              },
+              {
+                "platform": "N9K-C9364C-GX",
+                "linecard": "N9K-C9364C-GX",
+                "value": "128"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9732C-FX",
+                "value": "75"
+              }
+            ]
+          },
+          {
+            "metric": "bfd_global",
+            "hardware": [
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-EX",
+                "value": "512"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-FX",
+                "value": "512"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "X9636Q-R",
+                "value": "288"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9636C-R",
+                "value": "288"
+              },
+              {
+                "platform": "N9K-C93180YC-FX",
+                "linecard": "N9K-C93180YC-FX",
+                "value": "128"
+              },
+              {
+                "platform": "N9K-9332C",
+                "linecard": "N9K-9332C",
+                "value": "128"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-C9504-FM-E",
+                "value": "512"
+              },
+              {
+                "platform": "N9K-C9336C-FX2",
+                "linecard": "N9K-C9336C-FX2",
+                "value": "128"
+              },
+              {
+                "platform": "N9K-C9364C",
+                "linecard": "N9K-C9364C",
+                "value": "128"
+              },
+              {
+                "platform": "N9K-C9364C-GX",
+                "linecard": "N9K-C9364C-GX",
+                "value": "128"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9732C-FX",
+                "value": "75"
+              }
+            ]
+          },
+          {
+            "metric": "arp",
+            "hardware": [
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-EX",
+                "value": "48000"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-FX",
+                "value": "48000"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "X9636Q-R",
+                "value": "48000"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9636C-R",
+                "value": "48000"
+              },
+              {
+                "platform": "N9K-C93180YC-FX",
+                "linecard": "N9K-C93180YC-FX",
+                "value": "48000"
+              },
+              {
+                "platform": "N9K-9332C",
+                "linecard": "N9K-9332C",
+                "value": "48000"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-C9504-FM-E",
+                "value": "48000"
+              },
+              {
+                "platform": "N9K-C9336C-FX2",
+                "linecard": "N9K-C9336C-FX2",
+                "value": "48000"
+              },
+              {
+                "platform": "N9K-C9364C",
+                "linecard": "N9K-C9364C",
+                "value": "32000"
+              },
+              {
+                "platform": "N9K-C9364C-GX",
+                "linecard": "N9K-C9364C-GX",
+                "value": "32000"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9732C-FX",
+                "value": "32000"
+              }
+            ]
+          },
+          {
+            "metric": "ecmp",
+            "hardware": [
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-EX",
+                "value": "1024"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-X9732C-FX",
+                "value": "1024"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "X9636Q-R",
+                "value": "1024"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9636C-R",
+                "value": "1024"
+              },
+              {
+                "platform": "N9K-C93180YC-FX",
+                "linecard": "N9K-C93180YC-FX",
+                "value": "1024"
+              },
+              {
+                "platform": "N9K-9332C",
+                "linecard": "N9K-9332C",
+                "value": "1024"
+              },
+              {
+                "platform": "N9K-C9504",
+                "linecard": "N9K-C9504-FM-E",
+                "value": "1024"
+              },
+              {
+                "platform": "N9K-C9336C-FX2",
+                "linecard": "N9K-C9336C-FX2",
+                "value": "1024"
+              },
+              {
+                "platform": "N9K-C9364C",
+                "linecard": "N9K-C9364C",
+                "value": "1024"
+              },
+              {
+                "platform": "N9K-C9364C-GX",
+                "linecard": "N9K-C9364C-GX",
+                "value": "1024"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-X9732C-FX",
+                "value": "1024"
+              },
+              {
+                "platform": "N9K-C9508",
+                "linecard": "N9K-C9508-FM-E2",
+                "value": "1024"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
