@@ -2,6 +2,7 @@ import os
 import re
 import sys
 import csv
+from tqdm import tqdm
 
 from typing import Dict, List, Tuple, Callable, Optional, Type, Union
 
@@ -352,7 +353,7 @@ class Model(BaseModel):
         return None
 
     def populate(self, rawInventoryFolder, commandsDefinition, referenceDefinitions):
-        for host in self.getHostList():
+        for host in tqdm(self.getHostList()):
             try:
                 for command in commandsDefinition.getCommandListFromVersionAndChipset(host.version, host.chipset):
                     groupInventoryItem = self.getGroupInventoryItemByName(host.hostname)

@@ -16,27 +16,27 @@
               {
                 "platform": "N9K-C9504",
                 "linecard": "N9K-X9732C-EX",
-                "value": "1500"
+                "value": "490"
               },
               {
-                "platform": "N9K-C9504",
+                "platform": "N9K-C9508",
                 "linecard": "N9K-X9732C-FX",
-                "value": "1500"
+                "value": "490"
               },
               {
                 "platform": "N9K-C9508",
                 "linecard": "N9K-X9636C-R",
-                "value": "3967"
+                "value": "490"
               },
               {
                 "platform": "N9K-C93180YC-FX",
                 "linecard": "N9K-C93180YC-FX",
-                "value": "1000"
+                "value": "490"
               },
               {
                 "platform": "N9K-C9336C-FX2",
                 "linecard": "N9K-C9336C-FX2",
-                "value": "1000"
+                "value": "490"
               },
               {
                 "platform": "N9K-C9364C",
@@ -46,11 +46,6 @@
               {
                 "platform": "N9K-C9364C-GX",
                 "linecard": "N9K-C9364C-GX",
-                "value": "490"
-              },
-              {
-                "platform": "N9K-C9508",
-                "linecard": "N9K-X9732C-FX",
                 "value": "490"
               }
             ]
@@ -66,17 +61,17 @@
               {
                 "platform": "N9K-C9504",
                 "linecard": "N9K-X9732C-FX",
-                "value": "92000"
+                "value": "90000"
               },
               {
                 "platform": "N9K-C9504",
                 "linecard": "X9636Q-R",
-                "value": "192000"
+                "value": "90000"
               },
               {
                 "platform": "N9K-C9508",
                 "linecard": "N9K-X9636C-R",
-                "value": "192000"
+                "value": "90000"
               },
               {
                 "platform": "N9K-C93180YC-FX",
@@ -101,7 +96,7 @@
               {
                 "platform": "N9K-C9508",
                 "linecard": "N9K-X9732C-FX",
-                "value": "90000"
+                "value": "92000"
               }
             ]
           },
@@ -161,17 +156,17 @@
               {
                 "platform": "N9K-C9504",
                 "linecard": "N9K-X9732C-EX",
-                "value": "8192"
+                "value": "8000"
               },
               {
                 "platform": "N9K-C9504",
                 "linecard": "N9K-X9732C-FX",
-                "value": "8192"
+                "value": "8000"
               },
               {
                 "platform": "N9K-C9504",
                 "linecard": "X9636Q-R",
-                "value": "32768"
+                "value": "32000"
               },
               {
                 "platform": "N9K-C9508",
@@ -181,32 +176,32 @@
               {
                 "platform": "N9K-C93180YC-FX",
                 "linecard": "N9K-C93180YC-FX",
-                "value": "8192"
+                "value": "8000"
               },
               {
                 "platform": "N9K-9332C",
                 "linecard": "N9K-9332C",
-                "value": "16384"
+                "value": "8000"
               },
               {
                 "platform": "N9K-C9336C-FX2",
                 "linecard": "N9K-C9336C-FX2",
-                "value": "8192"
+                "value": "8000"
               },
               {
                 "platform": "N9K-C9364C",
                 "linecard": "N9K-C9364C",
-                "value": "16384"
+                "value": "8000"
               },
               {
                 "platform": "N9K-C9364C-GX",
                 "linecard": "N9K-C9364C-GX",
-                "value": "16384"
+                "value": "8000"
               },
               {
                 "platform": "N9K-C9508",
                 "linecard": "N9K-X9732C-FX",
-                "value": "16384"
+                "value": "32000"
               }
             ]
           },
@@ -941,12 +936,12 @@
               {
                 "platform": "N9K-C9504",
                 "linecard": "X9636Q-R",
-                "value": "288"
+                "value": "512"
               },
               {
                 "platform": "N9K-C9508",
                 "linecard": "N9K-X9636C-R",
-                "value": "288"
+                "value": "512"
               },
               {
                 "platform": "N9K-C93180YC-FX",
@@ -957,11 +952,6 @@
                 "platform": "N9K-9332C",
                 "linecard": "N9K-9332C",
                 "value": "128"
-              },
-              {
-                "platform": "N9K-C9504",
-                "linecard": "N9K-C9504-FM-E",
-                "value": "512"
               },
               {
                 "platform": "N9K-C9336C-FX2",
@@ -1026,7 +1016,7 @@
               {
                 "platform": "N9K-C9336C-FX2",
                 "linecard": "N9K-C9336C-FX2",
-                "value": "48000"
+                "value": "64000"
               },
               {
                 "platform": "N9K-C9364C",
@@ -1041,7 +1031,7 @@
               {
                 "platform": "N9K-C9508",
                 "linecard": "N9K-X9732C-FX",
-                "value": "32000"
+                "value": "48000"
               }
             ]
           },
@@ -1261,47 +1251,47 @@
               {
                 "platform": "N9K-C9504",
                 "linecard": "N9K-X9732C-EX",
-                "value": "512"
+                "value": "256"
               },
               {
                 "platform": "N9K-C9504",
                 "linecard": "N9K-X9732C-FX",
-                "value": "512"
+                "value": "256"
               },
               {
                 "platform": "N9K-C9504",
                 "linecard": "X9636Q-R",
-                "value": "512"
+                "value": "256"
               },
               {
                 "platform": "N9K-C9508",
                 "linecard": "N9K-X9636C-R",
-                "value": "512"
+                "value": "256"
               },
               {
                 "platform": "N9K-C93180YC-FX",
                 "linecard": "N9K-C93180YC-FX",
-                "value": "512"
+                "value": "256"
               },
               {
                 "platform": "N9K-C9336C-FX2",
                 "linecard": "N9K-C9336C-FX2",
-                "value": "512"
+                "value": "256"
               },
               {
                 "platform": "N9K-C9364C",
                 "linecard": "N9K-C9364C",
-                "value": "512"
+                "value": "256"
               },
               {
                 "platform": "N9K-C9364C-GX",
                 "linecard": "N9K-C9364C-GX",
-                "value": "512"
+                "value": "256"
               },
               {
                 "platform": "N9K-C9508",
                 "linecard": "N9K-X9732C-FX",
-                "value": "512"
+                "value": "256"
               }
             ]
           },
@@ -2044,11 +2034,6 @@
                 "value": "900"
               },
               {
-                "platform": "N9K-C9504",
-                "linecard": "N9K-C9504-FM-E",
-                "value": "750"
-              },
-              {
                 "platform": "N9K-C9336C-FX2",
                 "linecard": "N9K-C9336C-FX2",
                 "value": "900"
@@ -2061,12 +2046,12 @@
               {
                 "platform": "N9K-C9364C-GX",
                 "linecard": "N9K-C9364C-GX",
-                "value": "100"
+                "value": "900"
               },
               {
                 "platform": "N9K-C9508",
                 "linecard": "N9K-X9732C-FX",
-                "value": "100"
+                "value": "750"
               }
             ]
           },
@@ -2104,11 +2089,6 @@
                 "value": "2000"
               },
               {
-                "platform": "N9K-C9504",
-                "linecard": "N9K-C9504-FM-E",
-                "value": "1000"
-              },
-              {
                 "platform": "N9K-C9336C-FX2",
                 "linecard": "N9K-C9336C-FX2",
                 "value": "2000"
@@ -2121,12 +2101,12 @@
               {
                 "platform": "N9K-C9364C-GX",
                 "linecard": "N9K-C9364C-GX",
-                "value": "100"
+                "value": "2000"
               },
               {
                 "platform": "N9K-C9508",
                 "linecard": "N9K-X9732C-FX",
-                "value": "100"
+                "value": "1000"
               }
             ]
           },
